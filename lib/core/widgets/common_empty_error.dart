@@ -1,6 +1,7 @@
+import 'package:flutter/material.dart';
+
 import '../constants/app_constants.dart';
 import '../styles/app_text_styles.dart';
-import 'package:flutter/material.dart';
 
 class CommonEmptyError extends StatelessWidget {
   const CommonEmptyError({Key? key}) : super(key: key);

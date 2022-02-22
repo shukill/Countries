@@ -1,8 +1,9 @@
-import '../constants/assets.dart';
-import '../styles/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
+
+import '../constants/assets.dart';
+import '../styles/app_colors.dart';
 
 class CommonLoadingIndicator extends StatelessWidget {
   const CommonLoadingIndicator({Key? key}) : super(key: key);

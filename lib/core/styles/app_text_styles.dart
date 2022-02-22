@@ -1,6 +1,7 @@
-import 'app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'app_colors.dart';
 
 abstract class AppTextStyles {
   static TextStyle logoStyle = GoogleFonts.aBeeZee(
@@ -17,5 +18,9 @@ abstract class AppTextStyles {
     color: AppColors.pink,
     fontSize: 18,
     letterSpacing: 1.2,
+  );
+  static TextStyle work25Black = GoogleFonts.workSans(
+    color: AppColors.black,
+    fontSize: 25,
   );
 }

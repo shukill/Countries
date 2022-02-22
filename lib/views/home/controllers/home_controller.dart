@@ -1,7 +1,8 @@
-import '../models/country_model.dart';
-import '../services/home_apis.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
+
+import '../models/country_model.dart';
+import '../services/home_apis.dart';
 
 class HomeController extends GetxController {
   RxList allCountries = [].obs;
