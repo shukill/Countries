@@ -67,7 +67,7 @@ class RegionList extends StatelessWidget {
                 },
               ),
             ),
-          )
+          ),
         ],
       ),
     );

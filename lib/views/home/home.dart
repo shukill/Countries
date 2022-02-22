@@ -1,7 +1,5 @@
 import 'package:countries/core/styles/app_text_styles.dart';
 import 'package:countries/core/utilities.dart';
-import 'package:countries/views/home/screens/country_by_region.dart';
-
 import '../../core/constants/app_constants.dart';
 import '../../core/styles/app_colors.dart';
 import 'components/all_countries_list.dart';
@@ -34,7 +32,7 @@ class Homepage extends StatelessWidget {
             icon: const Icon(
               Icons.menu_rounded,
             ),
-            onPressed: () => print('b'),
+            onPressed: () => AppUtilities().onWillPop(context),
           ),
         ),
         body: Obx(() {
